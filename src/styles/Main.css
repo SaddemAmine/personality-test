@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#main {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 7%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#questions{
+    width: 80%;
+    height: 100%;
+}
+
+.question{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 40px 0px;
+}
+
+.question p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin: 10px 0px;
+    text-align: center;
+    width: 70%;
+    color: rgb(78, 78, 78);
+}
+
+.answers{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.agreedisagree {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    color: rgb(99, 99, 99);
+}

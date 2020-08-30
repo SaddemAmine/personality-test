@@ -1,0 +1,304 @@
+{    
+    "questions" : [
+        {
+            "statement" : "I am the life of the party.",
+            "answer" : 2,
+            "direction" : true,
+            "factor" : 1
+        },
+        {
+            "statement" : "I feel little concern for others.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 2
+        },
+        {
+            "statement" : "I am always prepared.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 3
+        },
+        {
+            "statement" : "I get stressed out easily.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 4
+        },
+        {
+            "statement" : "I have a rich vocabulary.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 5
+        },
+        {
+            "statement" : "I don't talk a lot.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 1
+        },
+        {
+            "statement" : "I am interested in people.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 2
+        },
+        {
+            "statement" : "I leave my belongings around.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 3
+        },
+        {
+            "statement" : "I am relaxed most of the time.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 4
+        },
+        {
+            "statement" : "I have difficulty understanding abstract ideas.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 5
+        },
+        {
+            "statement" : "I feel comfortable around people.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 1
+        },
+        {
+            "statement" : "I sometimes insult people when necessary.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 2
+        },
+        {
+            "statement" : "I pay attention to details.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 3
+        },
+        {
+            "statement" : "Worry about things.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 4
+        },
+        {
+            "statement" : "Have a vivid imagination.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 5
+        },
+        {
+            "statement" : "I like to be in the background.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 1
+        },
+        {
+            "statement" : "Sympathize with others' feelings.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 2
+        },
+        {
+            "statement" : "I'm sometimes messy.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 3
+        },
+        {
+            "statement" : "I sometimes feel blue.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 4
+        },
+        {
+            "statement" : "I am not interested in abstract ideas.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 5
+        },
+        {
+            "statement" : "Start conversations.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 1
+        },
+        {
+            "statement" : "I am not interested in other people's problems.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 2
+        },
+        {
+            "statement" : "Get chores done right away.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 3
+        },
+        {
+            "statement" : "I am easily disturbed.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 4
+        },
+        {
+            "statement" : "I have excellent ideas.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 5
+        },
+        {
+            "statement" : "I have little to say.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 1
+        },
+        {
+            "statement" : "I have a soft heart.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 2
+        },
+        {
+            "statement" : "I often forget to put things back in their proper place.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 3
+        },
+        {
+            "statement" : "I get upset easily.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 4
+        },
+        {
+            "statement" : "Do not have a good imagination.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 5
+        },
+        {
+            "statement" : "Talk to a lot of different people at parties.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 1
+        },
+        {
+            "statement" : "Am not really interested in others.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 2
+        },
+        {
+            "statement" : "I like order.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 3
+        },
+        {
+            "statement" : "Change my mood a lot.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 4
+        },
+        {
+            "statement" : "Am quick to understand things.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 5
+        },
+        {
+            "statement" : "Don't like to draw attention to myself.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 1
+        },
+        {
+            "statement" : "Take time out for others.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 2
+        },
+        {
+            "statement" : "Shirk my duties.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 3
+        },
+        {
+            "statement" : "Have frequent mood swings.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 4
+        },
+        {
+            "statement" : "Use difficult words.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 5
+        },
+        {
+            "statement" : "Don't mind being the center of attention.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 1
+        },
+        {
+            "statement" : "Feel others' emotions.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 2
+        },
+        {
+            "statement" : "Follow a schedule.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 3
+        },
+        {
+            "statement" : "Get irritated easily.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 4 
+        },
+        {
+            "statement" : "Spend time reflecting on things.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 5
+        },
+        {
+            "statement" : "Am quiet around strangers.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 1 
+        },
+        {
+            "statement" : "Make people feel at ease.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 2 
+        },
+        {
+            "statement" : "Am exacting in my work.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 3 
+        },
+        {
+            "statement" : "Often feel blue.",
+            "answer" : -1,
+            "direction" : false,
+            "factor" : 4 
+        },
+        {
+            "statement" : "Am full of ideas.",
+            "answer" : -1,
+            "direction" : true,
+            "factor" : 5 
+        }
+    ]
+}

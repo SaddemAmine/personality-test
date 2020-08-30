@@ -1,0 +1,100 @@
+.button {
+    border-radius: 50%;
+    transition: all 0.125s;
+
+    display: grid;
+    place-items: center;
+    color: white;
+    font-family: 'Segoe UI Symbol';
+}
+
+.button1:hover{
+    background-color: #a8e6cf;
+}
+
+.button2:hover{
+    background-color: #94cab6;
+}
+
+.button3:hover{
+    background-color: #7fac9b;
+}
+
+.button4:hover{
+    background-color: rgb(161, 161, 161);
+}
+
+.button5:hover{
+    background-color: #ffd3b6;
+}
+
+.button6:hover{
+    background-color: #f7c8a8;
+}
+
+.button7:hover{
+    background-color: #fcb88a;
+}
+
+.button1{
+    border: 3px solid#a8e6cf;
+}
+
+.button2{
+    border: 3px solid#94cab6;
+}
+
+.button3{
+    border: 3px solid #7fac9b;
+}
+
+.button4{
+    border: 3px solid rgb(161, 161, 161);
+}
+
+.button5{
+    border: 3px solid#ffd3b6;
+}
+
+.button6{
+    border: 3px solid#f7c8a8;
+}
+
+.button7{
+    border: 3px solid#fcb88a;
+}
+
+.button1_clicked{
+    background-color: #a8e6cf;
+    border: 3px solid  #94cab6;
+}
+
+.button2_clicked{
+    background-color: #94cab6;
+    border: 3px solid  #7fac9b;
+}
+
+.button3_clicked{
+    background-color: #7fac9b;
+    border: 3px solid  #6b9182;
+}
+
+.button4_clicked{
+    background-color: rgb(161, 161, 161);
+    border: 3px solid rgb(109, 109, 109);
+}
+
+.button5_clicked{
+    background-color: #ffd3b6;
+    border: 3px solid #f7c8a8;
+}
+
+.button6_clicked{
+    background-color: #f7c8a8;
+    border: 3px solid #fcb88a;
+}
+
+.button7_clicked{
+    background-color: #fcb88a;
+    border: 3px solid #e9a97f;
+}
