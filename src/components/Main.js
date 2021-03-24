@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import 'antd/dist/antd.css'
 import '../styles/Main.css'
 import Answers from './Answers'
@@ -29,6 +30,8 @@ export default class Main extends Component {
                 </div>
             </div>
             <center>
+            
+            <Link to='/result'>
             <Button onClick = {() => this.props.handleSubmit()} type="primary" shape="round" icon={<SendOutlined />} size="large"
                 style = {{
                     marginBottom : "30px",
@@ -37,6 +40,7 @@ export default class Main extends Component {
             >
                 Submit
             </Button>
+            </Link>
             </center>
             </>
         )

@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import data from './data/questions.json';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
+import Result from './components/Result';
 
 export default class App extends Component {
   state = {
@@ -42,7 +43,7 @@ export default class App extends Component {
   handleSubmit = () => {
     let values = [0,0,0,0,0]
     const p = [1,1.5,2,3,4,4.5,5]
-    const n = [5,4.5,4,3,2,1.5,1]
+    const n = p.reverse()
     this.state.questions.forEach( q => {
       values[q.factor - 1] += q.direction ? p[q.answer - 1] : n[q.answer - 1]
     })
@@ -57,14 +58,21 @@ export default class App extends Component {
         id = "app"
       >
       <Router>
-        <Route path="/" render = {() => (
+        <withRouter>
+          <Route exact path="/" render = {() => (
+            <div>
+              <Navbar />   
+              <Main questions={this.state.questions} handleSelect = {this.handleSelect} handleSubmit = {this.handleSubmit} />
+            </div>
+          )} />
+        </withRouter>
+
+        <Route path="/result" render = {() => (
           <div>
             <Navbar />   
-            <Main questions={this.state.questions} handleSelect = {this.handleSelect} handleSubmit = {this.handleSubmit} />
+            <Result values = {this.state.values} keys = {this.state.keys} />
           </div>
         )} />
-
-        {/* <Route path="/result" render = {() => (<Result />)} /> */}
       </Router>     
       </div>
     )
